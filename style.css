@@ -1,0 +1,43 @@
+body {
+  background-color: #EBD8C3;
+}
+
+.score {
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  margin-top: 80px;
+}
+
+.grid {
+  background-color: #F7E9D7;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: solid black 1px;
+  box-shadow: 1px 1px;
+  border-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  background-color: #557B83;
+  border-radius: 10px;
+}
+
+.shooter {
+  background-color: #46244C;
+}
+
+.laser {
+  background-color: #712B75;
+}
+
+.collision {
+  background-color: #FF85B3;
+}
